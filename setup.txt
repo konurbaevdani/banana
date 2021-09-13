@@ -1,0 +1,9 @@
+# 1. File -> New Project (указываете название, указываете версию Pyhton)
+2. Создаёте файл с зависимостями requirements.txt
+3. Настраиваете виртуальное окружение File -> Settings -> Project -> Python Interpreter -> Add...
+4. Устанавливаете зависимости при помощи pip install -r путь_до_файла
+5. Создаёте Django-проект django-admin startproject название .
+6. Создаёте базу данных
+7. Создаёте приложения python3 manage.py startapp название
+8. Настройки проекта: настройки БД, зарегистрировать приложения в INSTALLED_APPS
+9. Проверить python3 manage.py runserver и пройти по ссылке
